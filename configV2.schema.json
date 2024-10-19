@@ -24,7 +24,7 @@
         },
         "WebHookUrls": {
           "description": "WebhookV1\n默认: ",
-          "markdownDescription": "WebhookV1  \n默认: ` `\n\n具体文档见 [Webhook](/docs/basic/webhook/)",
+          "markdownDescription": "WebhookV1  \n默认: ` `\n\n具体文档见 [Webhook](/reference/webhook/)",
           "type": "object",
           "additionalProperties": false,
           "properties": {
@@ -40,7 +40,7 @@
         },
         "WebHookUrlsV2": {
           "description": "WebhookV2\n默认: ",
-          "markdownDescription": "WebhookV2  \n默认: ` `\n\n具体文档见 [Webhook](/docs/basic/webhook/)",
+          "markdownDescription": "WebhookV2  \n默认: ` `\n\n具体文档见 [Webhook](/reference/webhook/)",
           "type": "object",
           "additionalProperties": false,
           "properties": {
@@ -231,7 +231,7 @@
         },
         "RecordMode": {
           "description": "录制模式\n默认: RecordMode.Standard",
-          "markdownDescription": "录制模式  \n默认: `RecordMode.Standard `\n\n本设置项是一个 enum，键值对应如下：\n\n| 键 | 值 |\n|:--:|:--:|\n| RecordMode.Standard | 0 |\n| RecordMode.RawData | 1 |\n\n关于录制模式的说明见 [录制模式](/docs/basic/record_mode/)",
+          "markdownDescription": "录制模式  \n默认: `RecordMode.Standard `\n\n本设置项是一个 enum，键值对应如下：\n\n| 键 | 值 |\n|:--:|:--:|\n| RecordMode.Standard | 0 |\n| RecordMode.RawData | 1 |\n\n关于录制模式的说明见 [录制模式](/user/modes/)",
           "type": "object",
           "additionalProperties": false,
           "properties": {
@@ -426,7 +426,7 @@
         },
         "RecordMode": {
           "description": "录制模式\n默认: RecordMode.Standard",
-          "markdownDescription": "录制模式  \n默认: `RecordMode.Standard `\n\n本设置项是一个 enum，键值对应如下：\n\n| 键 | 值 |\n|:--:|:--:|\n| RecordMode.Standard | 0 |\n| RecordMode.RawData | 1 |\n\n关于录制模式的说明见 [录制模式](/docs/basic/record_mode/)",
+          "markdownDescription": "录制模式  \n默认: `RecordMode.Standard `\n\n本设置项是一个 enum，键值对应如下：\n\n| 键 | 值 |\n|:--:|:--:|\n| RecordMode.Standard | 0 |\n| RecordMode.RawData | 1 |\n\n关于录制模式的说明见 [录制模式](/user/modes/)",
           "type": "object",
           "additionalProperties": false,
           "properties": {
